@@ -1,0 +1,288 @@
+body {
+    width: 860px;
+    margin: 0 auto;
+    padding: 0 60px;
+    background-color: #eaeaec;
+    text-align: center;
+    font-family: "Arial MT", sans-serif;
+    font-weight: 400;
+    color: #404040;
+}
+
+.container {
+    margin: 0 42px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #404040;
+}
+
+.block {
+    border: 1px dotted black;
+}
+
+header {
+    width: 738px;
+}
+
+h1 {
+    padding-top: 53px;
+    height: 0;
+    overflow: hidden;
+    background: transparent url("../img/scloud.png") no-repeat;
+    margin: 20px 327px;
+
+}
+
+main {
+
+    width: 738px;
+    background-color: #f7f7f7;
+}
+
+.logo {
+    padding-top: 46px;
+    margin-bottom: 16px;
+}
+
+.greating {
+    margin-bottom: 24px;
+}
+
+.greating b {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.order {
+    margin-bottom: 30px;
+}
+
+.order_field {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+.white_back {
+    background-color: #fefefe;
+}
+
+.left {
+    float: left;
+    margin-left: 103px;
+    text-align: center;
+
+}
+
+.right {
+    float: right;
+    margin-right: 102px;
+}
+
+.payment {
+
+
+    display: block;
+    margin-bottom: 36px;
+}
+
+.payment b {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.payment li {
+    display: block;
+    margin-right: 17px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+
+.payment li::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 6px;
+    height: 6px;
+    background-color: #a8dd86;
+    border-radius: 7px;
+    top: 11px;
+    left: -17px;
+
+}
+
+.table {
+    width: 654px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.table b {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 20px;
+    width: 654px;
+    font-family: "Arial";
+    font-size: 12px;
+    line-height: 18px;
+    border-collapse: collapse;
+    background-color: #fefefe;
+}
+
+th {
+    text-align: center;
+    background-color: #d7f7c4;
+    border-right: 1px solid #ffffff;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+.col_1 {
+    width: 348px;
+}
+
+.row_name {
+    text-align: left;
+    padding: 9px;
+    padding-left: 26px;
+}
+
+td {
+    border-bottom: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.12px;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+.row-4 {
+    border-bottom: none;
+}
+
+.promo {
+    position: relative;
+    padding: 0;
+    padding-top: 20px;
+
+}
+
+. promo b {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+
+}
+
+.promo_file {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.promo p::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: transparent url("../img/Layer_3.png") no-repeat;
+    top: 73px;
+    left: 111px;
+}
+
+footer {
+    width: 738px;
+    margin: 0;
+    padding: 0;
+    color: #808080;
+    font-size: 14px;
+
+}
+
+.footer_item1 {
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-top: 28px;
+    margin-bottom: 23px;
+}
+
+.footer_item1 b {
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.34px;
+    color: #313030;
+}
+
+.footer_item1 p {
+    line-height: 20px;
+    color: #808080;
+}
+
+footer a {
+    color: #808080;
+}
+
+.footer_contacts {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e3e3e6;
+}
+
+.footer_contacts1 {
+    display: block;
+    float: left;
+    margin-left: 62px;
+}
+
+footer_contacts2 {
+    display: block;
+    float: left;
+}
+
+.footer_contacts3 {
+    display: block;
+    float: right;
+    margin-right: 72px;
+}
+
+.unsubscribe {
+    color: #bfbfbf;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.unsubscribe a {
+    color: #bfbfbf;
+}
